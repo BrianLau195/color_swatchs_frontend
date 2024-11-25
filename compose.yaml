@@ -1,0 +1,8 @@
+services:
+  color_swatchs_frontend:
+    build: .
+    volumes:
+      - .:/myapp
+      - /myapp/node_modules
+    ports:
+      - 4000:4000
